@@ -1,0 +1,30 @@
+{% extends 'base.php' %}
+
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/video.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="container display-flex">
+  
+  <div class="card-container">
+    <div class="image-container">
+      <a href="{{video.post_video_url}}">
+        <img class="play-btn" src="{{url_for('static', filename='images/play-button.png')}}" alt="">
+      </a>
+      <img src="{{video.thumbnail}}" class="card-img-top" alt="..."> 
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{video.title}}</h5>
+    </div>  
+  </div>
+</div>
+
+
+{% block video_content %}
+{% endblock %}
+
+{% block js%}
+<script src="{{url_for('static', filename='scripts/footer-fix.js')}}"></script>
+{% endblock %}
+{% endblock %}

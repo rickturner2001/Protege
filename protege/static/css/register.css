@@ -1,0 +1,45 @@
+body{
+    background-color: #151515;
+}
+.main-container{
+    display: flex;
+    width: 100%;
+    margin-top: 10rem;
+    justify-content: center;
+}
+.secondary-container{
+    display: flex;
+    justify-content: center;
+}
+.submit-form{
+    display: flex;
+    justify-content: center;
+    
+}
+.compile-form-control{
+    background-color: #2a2a2a;
+    color: aliceblue;
+}
+.compile-form-floating{
+    background-color: #121212;
+    color: aliceblue;
+    display: flex;
+}
+.submit-btn{
+    background-color: #2a2a2a;
+    color: aliceblue;
+    border-color: #121212;
+}
+.compile-form-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 1024px){}
+
+@media (max-width: 764px){}
+
+@media (max-width: 576px){}
+
+@media (max-width: 300px){}

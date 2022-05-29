@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/add.css')}}">
+{% block content %}
+
+<div class="jumbotron">
+    <h1>test</h1>
+<form action="" method="POST">
+    {{form.hidden_tag()}}
+    {{form.title.label}} {{form.title()}}
+    {{form.title.text}} {{form.text()}}
+    {{form.submit()}}
+</form>
+</div>
+
+
+{% endblock %}

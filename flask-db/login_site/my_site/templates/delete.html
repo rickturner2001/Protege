@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if current_user.id == 1 %}
+<div class="jumbotron">
+    
+    <p>Fill out id of Post to remove it</p>
+    
+    <form action="" method="post">
+        {{form.hidden_tag()}}
+        {{form.id.label}} {{form.id()}}
+        {{form.submit()}}
+    </form>
+</div>
+{%else%}
+
+{% endif %}
+
+{% endblock %}

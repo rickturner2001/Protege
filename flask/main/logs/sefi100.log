@@ -1,0 +1,161 @@
+[93mCouldn't Create a Database for XRAY[0m
+[93mCouldn't Create a Database for JCI[0m
+[93mCouldn't Create a Database for MCO[0m
+[93mCouldn't Create a Database for TWTR[0m
+[93mCouldn't Create a Database for UNP[0m
+[93mCouldn't Create a Database for UNH[0m
+[96mNo signals were found[0m
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 54, in <module>
+    main()
+  File "/home/rickturner/flask/main/method101/main.py", line 31, in main
+    if symbols:
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/pandas/core/generic.py", line 1442, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[93mCouldn't Create a Database for XRAY[0m
+[93mCouldn't Create a Database for JCI[0m
+[93mCouldn't Create a Database for MCO[0m
+[93mCouldn't Create a Database for TWTR[0m
+[93mCouldn't Create a Database for UNP[0m
+[93mCouldn't Create a Database for UNH[0m
+[93mCouldn't Create a Database for ZTS[0m
+[96mNo signals were found[0m
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 54, in <module>
+    main()
+  File "/home/rickturner/flask/main/method101/main.py", line 31, in main
+    if symbols:
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/pandas/core/generic.py", line 1442, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[93mCouldn't Create a Database for XRAY[0m
+[93mCouldn't Create a Database for JCI[0m
+[93mCouldn't Create a Database for MCO[0m
+[93mCouldn't Create a Database for TWTR[0m
+[93mCouldn't Create a Database for UNP[0m
+[93mCouldn't Create a Database for UNH[0m
+[93mCouldn't Create a Database for ZTS[0m
+[96mNo signals were found[0m
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 54, in <module>
+    main()
+  File "/home/rickturner/flask/main/method101/main.py", line 31, in main
+    if symbols:
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/pandas/core/generic.py", line 1442, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[96mNo signals were found[0m
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 54, in <module>
+    main()
+  File "/home/rickturner/flask/main/method101/main.py", line 31, in main
+    if symbols:
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/pandas/core/generic.py", line 1442, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[96mNo signals were found[0m
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 54, in <module>
+    main()
+  File "/home/rickturner/flask/main/method101/main.py", line 31, in main
+    if symbols:
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/pandas/core/generic.py", line 1442, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/main.py", line 1, in <module>
+    from sefi100 import get_sefi100
+  File "/home/rickturner/flask/main/method101/sefi100.py", line 3, in <module>
+    import tulipy as tp
+ModuleNotFoundError: No module named 'tulipy'

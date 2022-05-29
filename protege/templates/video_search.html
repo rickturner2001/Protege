@@ -1,0 +1,113 @@
+{% extends 'base.php' %} 
+{% block css %}
+<link
+  rel="stylesheet"
+  href="{{url_for('static', filename='css/videos.css')}}"
+/>
+{% endblock %}
+
+{% block content %}
+{% if videos.items %}
+
+<div class="container-flex">
+  <div class="container upper-content">
+      <p class="lead lead-edit">
+        {% if not keyword %}
+        Showing all videos
+        {% else %}
+        showing results for {{keyword}} 
+        {% endif %}
+        ({% if not videos.total < 20 %}
+          {{videos.page * 20}}
+          {% else %}
+          test
+          {{videos.total}}
+          {% endif %}
+           - {{videos.total}})
+      </p>
+  </div>
+<div class="videos-container container-fluid" >
+  <div class="row row-cols-4">
+    {% for video in videos.items %}
+    <div class="video-col col-margins">
+      {% if not video.post_video_url %} {% else %}
+      <div class="video-card card rounded" >
+        <img
+          src="{{video.thumbnail}}"
+          class="card-img-top"
+          alt="{{video.title}}"
+        />
+        <div class="card-body">
+          <a
+            class="card-text"
+            href="{{ url_for('posts.video', post_id=video.id) }}"
+            >
+            {% if (video.title | length) > 40%}
+                      {{video.title[:40]}}...
+                      {%else%}
+                      {{video.title}}
+                      {%endif%}
+            </a
+          >
+        </div>
+        <div class="video-category">
+          <a class="badge rounded-pill bg-dark badge-edits" href="{{url_for('posts.category_search', keyword=video.category)}}">{{video.category}}</a>
+          
+          <span class="badge rounded-pill bg-light text-dark" style="background-color: #f3f3f3;">
+            {% if video.actors %}
+            {{video.actors}}
+            {% else %}
+            Unknown
+            {% endif %}
+          </span>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    <!-- <p class="center-text">{{video.title}}</p> -->
+    {% endfor %}
+  </div>
+  
+   <nav aria-label="Page navigation example" class="page-nav">
+    <ul class="pagination justify-content-center">
+      {% for page_num in videos.iter_pages() %}
+         {% if videos.page == page_num %}
+         <li class="page-item disabled">
+           <a class="page-link" href="{{ url_for('posts.video_search', keyword=keyword, page=page_num) }}" style="background-color: #222 !important; color: #a4a4a4 !important;">{{ page_num }}</a></li>
+         </li>
+        {% elif page_num is none %}
+        <li class="page-item disabled"><a class="page-link" href="" style="background-color: #222 !important; color: #a4a4a4 !important;">...</a></li>
+
+          {% else %}
+           <li class="page-item"><a class="page-link" href="{{ url_for('posts.video_search',keyword=keyword, page=page_num) }}">{{ page_num }}</a></li>
+         {% endif %}
+     {% endfor %}
+   </nav>
+</div>
+</div>
+{% else %}
+<div class="null-search-outermost">
+
+  <div class="null-search-wrapper">
+
+    
+      <div class="alert alert-warning" role="alert">
+        <p class="text-center" style="width: 100%; margin-bottom: 0;">
+          No Categories found for<strong>&ThinSpace;{{keyword}}</strong>
+
+        </p>
+      </div>
+      <div class="card no-results">
+        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Totally_not_a_Rickroll_QR_code.png" alt="...">
+      </div>
+    
+  </div>
+</div>
+{% endif %}
+
+{% block js%}
+<script src="{{url_for('static', filename='scripts/footer_fix_categories.js')}}"></script>
+{% endblock %}
+
+
+{% endblock %}

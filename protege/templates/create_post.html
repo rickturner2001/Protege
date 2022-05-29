@@ -1,0 +1,47 @@
+{% extends 'base.php' %}
+{% block css %}
+<link
+  rel="stylesheet"
+  href="{{url_for('static', filename='css/create_post.css')}}"
+/>
+{% endblock %}
+{% block content %}
+<div class="main-container container post-container">
+    <div class="secondary-container container">
+    <form action="" method="POST" enctype="multipart/form-data">
+    {{form.hidden_tag()}}
+
+    <div class="row mb-3">
+        {{form.title.label(for="inputTitle", class="col-sm-2 col-form-label")}}
+        <div class="col-sm-10">
+            {{form.title(type="text", class="compile-form-control form-control", id="inputTitle")}}
+        </div>
+    </div>
+    <div class="row mb-3">
+        {{form.video.label(for="inputVideo", class="col-sm-2 col-form-label")}}
+        <div class="col-sm-10">
+            {{form.video(type="file", class="compile-form-control form-control", id="inputVideo")}}
+        </div>
+    </div>
+    <div class="row mb-3">
+        {{form.source.label(for="inputSource", class="col-sm-2 col-form-label")}}
+        <div class="col-sm-10">
+            {{form.source(type="text", class="compile-form-control form-control", id="inputSource")}}
+        </div>
+    </div>
+    <div class="row mb-3">
+        {{form.category.label(for="inputCategory", class="col-sm-2 col-form-label")}}
+        <div class="col-sm-10">
+            {{form.category(type="text", class="compile-form-control form-control", id="inputCategory")}}
+        </div>
+    </div>
+
+    <div class="btn-container">
+
+        {{form.submit(class='submit-btn btn btn-outline-secondary')}}
+    </div>
+    </form>
+    </div>
+</div>
+
+{% endblock %}

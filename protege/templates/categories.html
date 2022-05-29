@@ -1,0 +1,76 @@
+{% extends 'base.php' %}
+
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/categories.css')}}">
+{% endblock %}
+
+
+{% block content %}
+<div class="main-conatiner container-fluid">
+<div class="outermost-category-search-container">
+  <div class="container category-search">
+    <form class="d-flex search-nav form-width" method="POST">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="category-search" name="category-search">
+      <button class="submit-button btn btn-outline-light" type="submit" name="submit-search">Search</button>
+    </form>
+  </div>
+    <div class="container upper-content">
+      <p class="lead lead-edit">
+        {% if not keyword %}
+      Total Categories: {{categories | length}}
+    {% else %}
+    Showing results for {{keyword}} ({{categories | length}})
+    {% endif %}  
+    </p>
+    </div>
+
+</div>
+
+
+{% if categories %}
+<div class="main-container-fluid container-fluid main-container">
+  <div class="second-main-container-fluid container-fluid">
+  
+    <div class="row row-cols-4">
+        {% for i in range(categories | length) %}
+        <a class="video-col col " href="{{url_for('posts.category_search', keyword=categories[i])}}">
+        <div class="video-card card">
+            <img src="{{thumbnails[i]}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="video-card-title text-center">{{categories[i]}}</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+      
+      </div>
+    </div>
+      {% else %}
+      
+    <div class="null-search-outermost">
+
+    <div class="null-search-wrapper">
+
+      
+        <div class="alert alert-warning" role="alert">
+          <p class="text-center" style="width: 100%; margin-bottom: 0;">
+            No Categories found for<strong>&ThinSpace;{{keyword}}</strong>
+
+          </p>
+        </div>
+        <div class="card no-results">
+          <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Totally_not_a_Rickroll_QR_code.png" alt="...">
+        </div>
+      
+    </div>
+  </div>
+
+      {% endif %}
+     
+      {% block js%}
+      <script src="{{url_for('static', filename='scripts/footer_fix_categories.js')}}"></script>
+      {% endblock %}  
+      {% endblock %}
+    

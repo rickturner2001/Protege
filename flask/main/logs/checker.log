@@ -1,0 +1,156 @@
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/__init__.py", line 24, in <module>
+    from .tickers import Tickers
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/tickers.py", line 24, in <module>
+    from . import Ticker, multi
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/multi.py", line 25, in <module>
+    import multitasking as _multitasking
+ModuleNotFoundError: No module named 'multitasking'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/__init__.py", line 24, in <module>
+    from .tickers import Tickers
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/tickers.py", line 24, in <module>
+    from . import Ticker, multi
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/multi.py", line 25, in <module>
+    import multitasking as _multitasking
+ModuleNotFoundError: No module named 'multitasking'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/__init__.py", line 24, in <module>
+    from .tickers import Tickers
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/tickers.py", line 24, in <module>
+    from . import Ticker, multi
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/multi.py", line 25, in <module>
+    import multitasking as _multitasking
+ModuleNotFoundError: No module named 'multitasking'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/__init__.py", line 24, in <module>
+    from .tickers import Tickers
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/tickers.py", line 24, in <module>
+    from . import Ticker, multi
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/multi.py", line 25, in <module>
+    import multitasking as _multitasking
+ModuleNotFoundError: No module named 'multitasking'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/__init__.py", line 24, in <module>
+    from .tickers import Tickers
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/tickers.py", line 24, in <module>
+    from . import Ticker, multi
+  File "/home/rickturner/anaconda3/lib/python3.8/site-packages/yfinance/multi.py", line 25, in <module>
+    import multitasking as _multitasking
+ModuleNotFoundError: No module named 'multitasking'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Traceback (most recent call last):
+  File "/home/rickturner/flask/main/method101/checker.py", line 11, in <module>
+    from functions import do_db_connection
+  File "/home/rickturner/flask/main/utilities/functions.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'

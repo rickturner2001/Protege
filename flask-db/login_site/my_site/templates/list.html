@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>List of all Posts</h1>
+
+    <ul>
+        {% for post in posts %}
+        <li>{{post}}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}

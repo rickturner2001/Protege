@@ -1,0 +1,29 @@
+{% extends 'base.php' %}
+
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/login.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="main-container container">
+    <div class="secondary-container container">
+        <form action="" method="POST" class="form-container">
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                <div class="compile-form-floating form-floating mb-3">
+                    {{form.email(type="email", class="compile-form-control form-control", id="floatingInput", placeholder="name@example.com")}}
+                    {{form.email.label(for="floatingInput")}}
+                </div>
+                <div class="compile-form-floating form-floating mb-3">
+                    {{form.password(type="password", class="compile-form-control form-control", id="floatingPassword", placeholder="Password")}}
+                    {{form.password.label(for="floatingPassword")}}
+                </div>
+                <div class="form-group submit-form">
+                    {{form.submit(class='submit-btn btn btn-outline-secondary')}}
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

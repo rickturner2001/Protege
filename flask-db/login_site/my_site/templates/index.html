@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block css %}
+<link rel="stylesheet" href="">
+{% endblock %}
+{% block content %}
+<div class="jumbotron">
+{% if current_user.is_authenticated %}
+<p>{{current_user.username}}</p>
+<p>{{current_user.id}}</p>
+{% else %}
+<p>Please Log in or Register</p>
+
+{% endif %}
+</div>
+
+{% endblock %}
